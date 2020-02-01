@@ -71,9 +71,7 @@ import './App.css';
      }
    }
  
-   displayFaceBox = (box) => {
-     this.setState({box: box});
-   }
+   displayFaceBox = (box) => {this.setState({box: box});}
  
    onInputChange = (event) => {
      this.setState({input: event.target.value});
